@@ -9,6 +9,12 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+section{
+    display: flex;
+}
+
+    /* About Section Starts  */
+
 .page{
     background-color: rgb(144, 255, 218);
     width: 70%;
@@ -74,3 +80,64 @@
     text-align: justify;
     padding: 0 10px 0 0;
 }
+
+
+
+   /* Form section Ends  */
+
+.form {
+    width: 55%;
+    padding: 50px 60px;
+}
+
+.form h2{
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+.user-details{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user-details .input-box{
+    width:calc(100% / 2 - 20px);
+    margin: 10px 0 5px 0;
+}
+
+.user-details .input-box input{
+    height: 5vh;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+.user-details .input-box:nth-child(5){
+    width: 100%;
+}
+.user-details .input-box:last-child{
+    width: 100%;
+}
+
+.user-details .input-box span{
+    font-family:'Space Grotesk', sans-serif ;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text-area{
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+
