@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.page{
+    background-color: rgb(144, 255, 218);
+    width: 70%;
+    height: 500px;
+    margin: 100px auto;
+    box-shadow: rgb(164, 164, 164) 4px 5px 10px 0px;
+
+}
+
+.about{
+    background-color: rgb(243, 243, 48);
+    width: 45%;
+    height: 100%;
+    padding: 40px;
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile{
+    text-align: center;
+
+}
+
+.profile h2{
+    padding: 15px 0 5px 0 ;
+}
+
+.about-me{
+    display: flex;
+    padding: 30px 0 0 0;
+}
+
+.about-text, .interests{
+    width: 50%;
+}
+
+.line{
+    height: 100;
+    border-left: 2px solid black;
+}
+
+.about-text h4, .interests h4 {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.interests ul{
+    padding: 0 0 0 50px;
+}
+
+.interests ul li{
+    padding-inline-start: 0px;
+    padding-top: 5px;
+}
+
+.about-text p{
+    text-align: justify;
+    padding: 0 10px 0 0;
+}
